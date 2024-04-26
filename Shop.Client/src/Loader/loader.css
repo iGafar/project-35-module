@@ -1,0 +1,12 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: -webkit-fill-available;
+  /* background: rgb(201, 197, 206); */
+}
+
+.img-loader {
+  width: 120px;
+  height: 120px;
+}

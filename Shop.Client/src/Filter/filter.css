@@ -1,0 +1,57 @@
+/* Filter */
+.filter {
+  margin-bottom: 10px;
+}
+
+.filter-label,
+.text-body-bold,
+.filter-title,
+.filter-from,
+.filter-to {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.text-body-bold {
+  font-weight: bold;
+}
+
+.filter-title,
+.filter-from,
+.filter-to {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(114, 115, 117);
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.9);
+  outline: none;
+}
+
+.filter-title {
+  width: 120px;
+}
+
+.btn-search:hover {
+  box-shadow: inset 0 -1px 1px rgba(249, 250, 250, 0.3),
+    inset 0 1px 2px rgba(197, 206, 212, 0.4),
+    inset 0 0 0 60px rgba(217, 227, 231, 0.5);
+}
+
+.btn-search {
+  width: 110px;
+  height: 40px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #3b3c3d;
+  outline: none;
+  border: 0.5px solid rgb(114, 115, 117);
+  background: linear-gradient(
+    rgba(163, 164, 167, 0.5),
+    rgba(235, 236, 238, 0.5) 48%,
+    rgba(241, 242, 245, 0.5) 52%,
+    rgba(215, 215, 216, 0.5)
+  );
+  cursor: pointer;
+  font-size: 1rem;
+}

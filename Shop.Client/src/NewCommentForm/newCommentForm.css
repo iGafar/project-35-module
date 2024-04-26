@@ -1,0 +1,67 @@
+.btn-add-coment {
+  background: linear-gradient(
+    rgba(163, 164, 167, 0.5),
+    rgba(235, 236, 238, 0.5) 48%,
+    rgba(241, 242, 245, 0.5) 52%,
+    rgba(215, 215, 216, 0.5)
+  );
+  border: 0.5px solid rgb(114, 115, 117);
+  border-radius: 50px;
+  color: #3b3c3d;
+  cursor: pointer;
+  font-size: 1rem;
+  height: 40px;
+  margin-top: 15px;
+  outline: none;
+  text-decoration: none;
+  width: 110px;
+}
+
+.error {
+  color: #da4518;
+  padding: 5px;
+}
+
+.new-coment {
+  align-items: start;
+  border: 0.2px solid rgba(114, 115, 117, 0.5);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 10px;
+}
+
+.new-comvent-label {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 1rem;
+  font-weight: bold;
+  flex-direction: row;
+  width: 60px;
+}
+
+.new-comvent-mail,
+.new-comvent-title,
+.new-comvent-text {
+  border: 0.5px solid rgb(114, 115, 117);
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 1rem;
+  height: 40px;
+  outline: none;
+  width: 220px; /* Update width values accordingly */
+}
+
+.new-comvent-mail {
+  width: 220px;
+}
+
+.new-comvent-text {
+  height: 100px;
+  width: 580px;
+}
+
+.text-body {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 1.2rem;
+}

@@ -1,0 +1,58 @@
+.button-container {
+  display: inline-flex !important;
+  gap: 0.5rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.btn-primary,
+.btn-secondary {
+  width: 240px;
+  height: 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  outline: none;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: inset 0 -1px 1px rgba(249, 250, 250, 0.3),
+    inset 0 1px 2px rgba(197, 206, 212, 0.4),
+    inset 0 0 0 60px rgba(217, 227, 231, 0.5);
+}
+
+.btn-primary {
+  color: #fff;
+  border: 0.5px solid #d9e8ff;
+  background: linear-gradient(
+    rgba(87, 112, 148, 0.5),
+    rgba(147, 169, 202, 0.5) 48%,
+    rgba(175, 187, 206, 0.5) 52%,
+    rgba(81, 106, 143, 0.5)
+  );
+}
+
+.btn-primary:hover {
+  box-shadow: inset 0 -1px 1px rgba(249, 250, 250, 0.3),
+    inset 0 1px 2px rgba(197, 206, 212, 0.4),
+    inset 0 0 0 60px rgba(217, 227, 231, 0.5);
+}
+
+.btn-secondary {
+  color: #3b3c3d;
+  border: 0.5px solid rgb(114, 115, 117);
+  background: linear-gradient(
+    rgba(163, 164, 167, 0.5),
+    rgba(235, 236, 238, 0.5) 48%,
+    rgba(241, 242, 245, 0.5) 52%,
+    rgba(215, 215, 216, 0.5)
+  );
+}
+
+.btn-secondary:hover {
+  box-shadow: inset 0 -1px 1px rgba(249, 250, 250, 0.3),
+    inset 0 1px 2px rgba(197, 206, 212, 0.4),
+    inset 0 0 0 60px rgba(217, 227, 231, 0.5);
+}
+
+.text-body {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.9);
+}

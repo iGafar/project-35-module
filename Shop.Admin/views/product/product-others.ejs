@@ -1,0 +1,22 @@
+<div class="product-item">
+  <div class="info">
+    <a class="title" href="<%= `${product.id}` %>"> <%= product.title %> </a>
+    <div>
+      <span class="label">Description:</span>
+      <%= product.description %>
+    </div>
+    <div>
+      <span class="label">Price:</span>
+      <%= product.price %>
+    </div>
+    <div class="remove-mark">
+      <label for="<%= product.id %>">Mark to add</label>
+      <input
+        type="checkbox"
+        id="<%= product.id %>"
+        value="<%= product.id %>"
+        name="newSimilars"
+      />
+    </div>
+  </div>
+</div>

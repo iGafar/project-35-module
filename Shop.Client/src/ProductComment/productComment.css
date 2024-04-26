@@ -1,0 +1,21 @@
+.item-comment {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.item-comment-name,
+.item-comment-content {
+  display: flex;
+  justify-content: left;
+  margin: 2px;
+}
+
+.item-comment-name {
+  font-weight: bold;
+}
+
+.item-comment-content {
+  font-weight: lighter;
+}
